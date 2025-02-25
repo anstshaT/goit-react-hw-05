@@ -1,0 +1,86 @@
+.allDetails {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.button {
+  margin-bottom: 15px;
+  position: absolute;
+  left: 0;
+  margin-left: 15px;
+}
+
+.movieInfo {
+  display: flex;
+  gap: 70px;
+  padding: 20px 0;
+}
+
+.ulGenres {
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.genresTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: transparent;
+  color: #ff5722;
+  border: none;
+  border-radius: 50px;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 200ms linear, background-color 200ms linear,
+    font-weight 200ms linear;
+}
+
+.button:hover {
+  background-color: #ff5722;
+  color: #faf9f0;
+  font-weight: 500;
+}
+
+/* Additional info */
+
+.additionalInfoDiv {
+  padding: 15px 0;
+  border-top: 1px solid #ff5722;
+}
+
+.addInfoTitle {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.addInfoLink {
+  color: #121435;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 150ms linear;
+  font-size: 17px;
+  margin-right: 15px;
+  transition: color 200ms linear;
+}
+
+.linkDiv {
+  margin-bottom: 15px;
+}
+
+.addInfoLink:hover {
+  color: #ff5622c6;
+}
+
+.active {
+  color: #ff5722;
+}

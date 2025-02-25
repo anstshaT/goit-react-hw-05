@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  font-weight: 500;
+  color: #faf9f0;
+  text-decoration: none;
+  font-size: 25px;
+  transition: color 250ms linear, background-color 250ms linear,
+    padding 250ms linear, border-radius 250ms linear, font-weight 250ms linear;
+}
+
+.link:hover {
+  font-weight: 600;
+}
+
+.active {
+  color: #ff5722;
+  background-color: #faf9f0;
+  padding: 0 7px;
+  border-radius: 50px;
+}
+
+.header {
+  background-color: #ff5722;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}

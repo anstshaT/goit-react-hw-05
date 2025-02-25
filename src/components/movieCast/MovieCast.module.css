@@ -1,0 +1,18 @@
+.castUl {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.castLi {
+  display: flex;
+  gap: 15px;
+}
+
+.name {
+  font-weight: 500;
+}

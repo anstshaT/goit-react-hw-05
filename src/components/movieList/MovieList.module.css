@@ -1,0 +1,16 @@
+.trendingMovUl {
+  list-style-type: none;
+  text-align: left;
+}
+
+.trendingMovLi {
+  color: #121435;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 150ms linear;
+  font-size: 17px;
+}
+
+.trendingMovLi:hover {
+  color: #ff5722;
+}
