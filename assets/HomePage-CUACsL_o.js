@@ -1,0 +1,2 @@
+import{r as s,j as e,f as a}from"./index-CdMA1nKY.js";import{M as m}from"./MovieList-CRV5UagH.js";const c="_homeDiv_a4p6p_1",r="_homeTitle_a4p6p_7",t={homeDiv:c,homeTitle:r},p=()=>{const[i,n]=s.useState(null);return s.useEffect(()=>{(async()=>{const o=await a();n(o),console.log(o)})()},[]),e.jsxs("div",{className:t.homeDiv,children:[e.jsx("h1",{className:t.homeTitle,children:"Trending today"}),e.jsx(m,{info:i})]})};export{p as default};
+//# sourceMappingURL=HomePage-CUACsL_o.js.map

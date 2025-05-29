@@ -1,0 +1,2 @@
+import{b as r,j as t,L as e}from"./index-CdMA1nKY.js";const l="_trendingMovUl_1t4gd_1",d="_trendingMovLi_1t4gd_6",i={trendingMovUl:l,trendingMovLi:d},c=({info:n})=>{const o=r();if(!n||!Array.isArray(n)){console.log("info is not array:",n);return}return console.log(n),t.jsx("div",{children:t.jsx("ul",{className:i.trendingMovUl,children:n.map(s=>t.jsx("li",{children:t.jsx(e,{to:`/movies/${s.id}`,className:i.trendingMovLi,state:o,children:s.title})},s.id))})})};export{c as M};
+//# sourceMappingURL=MovieList-CRV5UagH.js.map

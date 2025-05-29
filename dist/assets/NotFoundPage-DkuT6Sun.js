@@ -1,0 +1,2 @@
+import{j as n,L as r}from"./index-CdMA1nKY.js";const e="_notFoundDiv_dppln_1",t="_errorType_dppln_9",s="_errorContent_dppln_15",p="_link_dppln_21",o={notFoundDiv:e,errorType:t,errorContent:s,link:p},d=()=>n.jsxs("div",{className:o.notFoundDiv,children:[n.jsx("p",{className:o.errorType,children:"404"}),n.jsx("p",{className:o.errorContent,children:"Not Found "}),n.jsx(r,{to:"/",className:o.link,children:"Home page"})]});export{d as default};
+//# sourceMappingURL=NotFoundPage-DkuT6Sun.js.map
